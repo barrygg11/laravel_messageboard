@@ -1,8 +1,9 @@
-mysql -u root -p
-password:Zx11111!
+登入mysql:
+    mysql -u root -p
+    password:Zx11111!
 
-建立資料庫(mysql)
-create database myboard;
+建立資料庫(mysql):
+    create database myboard;
 
 
 ![截圖 2021-03-10 下午2 56 06](https://user-images.githubusercontent.com/79626986/110589028-cbe5e300-81b0-11eb-9b4f-432274f808f3.png)
