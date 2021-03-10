@@ -3,6 +3,10 @@
 @section('main')
     <h1 class="font-thin text-4xl">留言板 > 新增留言</h1>
 
+    <div class="field my-2">
+    <a href="{{ route('boards.index') }}">顯示所有留言</a>
+    </div>
+
     @if($errors->any())
         <div class="errors p-3 bg-red-500 text-red-100 font-thin rounded">
            <ul>
